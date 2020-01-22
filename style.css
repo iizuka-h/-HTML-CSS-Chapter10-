@@ -71,7 +71,8 @@ main{
   .step-box{
     float: none;
     width: 100%;
-    /*margin: 20px auto;*/
+    height: auto;
+    margin: 20px auto;
     position: relative;
     border: 1px solid #eee;
   }
@@ -79,33 +80,35 @@ main{
   .step-box1{
     margin-top: 50px;
   }
-
+ 
   .step-box2{
     margin: 20px 0;
   }
-
+  
   .step-box3{
     margin-bottom: 50px;
   }
-  
-  .step-img1{
-    height: 150px;
+ 
+
+ 
+  .step-img1 {
+    width:100%;
     background-image: url(img/flow01.png);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
   }
   
-  .step-img2{
-    height: 150px;
+  .step-img2 {
+    width:100%;
     background-image: url(img/flow02.png);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
   }
   
-  .step-img3{
-    height: 150px;
+  .step-img3 {
+    width:100%;
     background-image: url(img/flow03.png);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
   }
 }
